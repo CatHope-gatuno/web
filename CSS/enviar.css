@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+body{
+position:relative;
+display:flex;
+ flex-direction:column;
+justify-content:center;
+align-items:center;
+background-image:url(https://img.fotocommunity.com/mach-watt-269ccc0a-3b79-44f5-9daa-af74c96a10a5.jpg?height=1080);
+background-repeat:no-repeat;
+background-size:cover;
+}
+section{
+ 
+font-family:arial;
+font-size:14px;
+position:absolute;
+
+}
+section h2{
+text-align:center;
+}
+.mensaje{
+padding:5px;
+background-color:white;
+border:4px solid #65351C;
+color:#65351C;
+
+
+}
+.boton{
+	background-color:#65351C;
+	position:absolute;
+	margin-top:305px;
+	padding:10px;
+	border-radius:20px;
+}
+.boton a{
+	color:white;
+	text-decoration:none;
+	font-family:arial;
+	font-weight:bold;
+}
+.boton:hover{
+	background-color:brown;
+	
+}
